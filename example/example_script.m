@@ -27,3 +27,5 @@ drawScene(dice_scene,[1 2 3 4 5 6 7 8 9 10],[1,11:19])
 %% Example of user input from mouse, then keyboard
 [r,c,b] = getMouseInput(card_scene1)
 k = getKeyboardInput(simple_dice_scene)
+
+%This is a test
