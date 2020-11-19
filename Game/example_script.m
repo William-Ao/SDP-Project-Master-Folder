@@ -12,9 +12,14 @@ close all
 card_scene2 = simpleGameEngine('retro_cards.png', 16, 16, 10, [0,200,0]);
 bg = [1 2 3 4 5 6 7 8 9 10
       1 2 2 2 2 2 2 2 2 2];
-%fg = [1,  12:20
-      %, 21:6:74];
-drawScene(card_scene2,bg)
+fg = [1,  12:20
+      11, 21:6:74];
+%ok, so in the fg variable the 21:6:74 is moving through elements
+%21-74 in increments of 6
+%the whole sprite sheet is divided into rows and each
+%sprite is numbered
+%in the definition of card_scene2 we see how the sprite sheet is defined
+drawScene(card_scene2,bg,fg)
 
 %% Example using the simple dice sprite sheet
 %simple_dice_scene = simpleGameEngine('retro_simple_dice.png', 16, 16, 10, [0,0,0]);
@@ -25,7 +30,7 @@ drawScene(card_scene2,bg)
 %drawScene(dice_scene,[1 2 3 4 5 6 7 8 9 10],[1,11:19])
 
 %% Example of user input from mouse, then keyboard
-%[r,c,b] = getMouseInput(card_scene1)
+[r,c,b] = getMouseInput(card_scene2)
 %k = getKeyboardInput(simple_dice_scene)
 
 %This is a test
