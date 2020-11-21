@@ -31,6 +31,10 @@ classdef pokemons
         function damage()
         end
         
+        %To do with this class
+        %Create functions that will either divide or multiply stats by a 
+        %Certain number
+        
         function outputArg = method1(obj,inputArg)
             %METHOD1 Summary of this method goes here
             %   Detailed explanation goes here
