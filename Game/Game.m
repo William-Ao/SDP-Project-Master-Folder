@@ -3,8 +3,8 @@ clear
 close all
 
 %Initialize scene
-scene = simpleGameEngine('cropped sprites.png', 64, 64);
-blank_tile = 50;
+scene = simpleGameEngine('cropped sprites.png', 62, 62);
+blank_tile = 64;
 %Current plan for board display: 
 % - - - - - 
 % S H - E - 
@@ -62,6 +62,6 @@ blank_tile = 50;
 %
 %Both players choose their moves at the same time, but the order they move
 %is based on the Pokemon's speed, so a getSpeed method is required 
-board_display = blank_tile * ones(5, 5);
+board_display = [62, 62, 62, 62, 62;62, 62, 62, 62, 62;62, 62, 62, 62, 62;62, 62, 62, 62, 62;63, 64, 65, 66, 67];
 background = 496;
 drawScene(scene, board_display)
