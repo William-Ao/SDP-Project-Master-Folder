@@ -110,7 +110,6 @@ close all
 pnames = {'Mewtwo'; 'Moltres'; 'Zapdos'; 'Articuno'; 'Dragonite'; 'Snorlax'; 'Aerodactyl'; 'Kabutops'; 'Omastar'; 'Porygon'; 'Flareon'};
 
 %Initializes pokemon and move data
-myDialogue
 delimiterIn = ' ';
 moves = load('moves.mat').moves;
 pokemon = load('pokemoninfo.mat').pokemoninfo;
@@ -143,7 +142,7 @@ for i=1:3
     pokemon([random],:) = [];
 end
 
-pchoice = choosedialog
+
 %Initialize scene
 scene = simpleGameEngine('cropped sprites.png', 62, 62);
 blank_tile = 64;
