@@ -1,0 +1,59 @@
+FireFang E Normal 65 0.95 Brn P
+TakeDown E Fire 90 0.85 NA P 
+Growl E Normal 0.5 Atk 1 NA
+SandAttack E Ground 0.5 Def 1 NA
+
+HyperBeam E Normal 150 0.9 NA S
+TriAttack E Normal 80 1 Par S
+Thunderbolt E Electric 100 0.9 Par S
+CalmMind S Psychic 2 SpAtk 1 NA
+
+IceBeam E Ice 90 1 Frz S
+Hurricane E Flying 110 0.7 NA S
+AirSlash E Flying 75 0.95 NA S
+HyperBeam E Normal 150 0.9 NA S
+
+AncientPower E Rock 60 1 NA S
+HydroPump E Water 110 0.8 NA S
+Scald E Water 80 1 Brn S
+RockTomb E Rock 60 0.95 P
+
+AquaTail E Water 90 0.9 NA P
+BrickBreak E Fight 75 1 NA P
+Liquidation E Water 80 1 NA P
+RockSlide E Rock 80 1 NA P
+
+DragonClaw E Dragon 80 1 NA P
+Earthquake E Ground 100 0.9 NA P
+IronHead E Steel 80 1 NA P
+PhysicFangs E Physic 85 0.95 NA P
+
+BodySlam E Normal 85 1 NA P
+Crunch E Dark 80 1 NA P
+FirePunch E Fire 75 1 Brn P
+Guillotine E Normal 1000 0.3 NA P
+
+Blizzard E Ice 110 0.7 Frz S
+FreezeDry E Ice 70 1 Frz S
+SteelWing E Steel 70 0.9 NA S
+AncientPower E Rock 60 1 NA S
+
+Thunder E Electric 110 0.7 Par S
+Thunderbolt E Electric 90 1 Par S
+Roost S Flying 1.5 HP 0.9 NA 
+CalmMind S Physic 2 SpAtk 1 NA
+
+Flamethrower E Fire 90 1 Brn S
+MorningSun E Fire 130 0.9 Brn S
+Toxic E Poison 0 0.9 Psn S
+Peck E Flying 60 1 NA P
+
+DragonPulse E Dragon 85 1 NA S
+Flamethrower E Fire 90 1 Brn S
+IceBeam E Ice 90 1 Frz S
+Roost S Flying 1.5 HP 0.9 NA
+
+ShadowBall E Ghost 80 1 NA S
+Psychic E Psychic 90 1 NA S
+HyperBeam E Normal 150 0.9 NA S
+Recover S Normal 1.5 HP 0.9 NA
