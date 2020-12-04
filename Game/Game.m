@@ -87,7 +87,42 @@ close all
 %37 - 40 Dragonite
 %41 - 44 Mewtwo
 
+%Sprite indexes
+%P2 - (Front facing)
+%Flareon - 1
+%Porygon - 3
+%Omastar - 7
+%Kabutops - 11
+%Aerodactyl - 13
+%Snorlax - 15
+%Articuno - 17
+%Zapdos - 19
+%Moltres - 21
+%Dragonite - 27
+%Mewtwo - 29
+%Blank sprite - 31
 
+%P1 (Back turned to P1)
+%Flareon - 32
+%Porygon - 34
+%Omastar - 38
+%Kabutops - 42
+%Aerodactyl - 44
+%Snorlax - 46
+%Articuno - 48
+%Zapdos - 50
+%Moltres - 52
+%Dragonite - 58
+%Mewtwo - 60
+%Blank sprite - 62
+
+%63, 64, 65, 66, 67 (It's super effective not)
+%68, 69, 70, 71 (1, 2, 3, 4)
+%72, 73 (Gray HP Bar and Green HP Bar)
+%74, 75, 76, 77, 78, 79, HP, PSN, BRN, PAR, SLP, FRZ
+%80, Explosion
+%81, 82, Arrow up, Arrow down
+%83 FAILED
 
 %
 %
@@ -143,25 +178,19 @@ for i=1:3
     pokemon([random],:) = [];
 end
 
-pchoice = choosedialog
+%CPU or player choice
+pchoice = choosedialog;
+
 %Initialize scene
 scene = simpleGameEngine('cropped sprites.png', 62, 62);
-blank_tile = 64;
+blank_tile = 31;
+board_display = 31 * ones(5, 5);
+drawScene(scene, board_display)
+
+
+
 %h = msgbox({'Your first move is X';'Your Second Move is x'});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-board_display = [62, 62, 62, 62, 62;62, 62, 62, 62, 62;62, 62, 62, 62, 62;62, 62, 62, 62, 62;63, 64, 65, 66, 67];
+%board_display = [62, 62, 62, 62, 62;62, 62, 62, 62, 62;62, 62, 62, 62, 62;62, 62, 62, 62, 62;63, 64, 65, 66, 67];
 background = 496;
-%drawScene(scene, board_display)
+drawScene(scene, board_display)
+
